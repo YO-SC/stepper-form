@@ -1,0 +1,62 @@
+<!-- 
+    Made by: YOSC
+    Created: 2/25/2020
+    Modified: 3/2/2020
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stepper Form by YOSC</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Stepper Form -->
+    <div class="form-div">
+      <h1 class="page-title">Stepper Form</h1>
+
+      <div class="stepper-form">
+        <!-- Email -->
+        <div class="div-email show-section slideUp" id="email">
+          <h2 class="label-email">Email</h2>
+          <input
+            class="input-email"
+            type="email"
+            placeholder="example@example.com"
+          />
+        </div>
+
+        <!-- Password -->
+        <div class="div-password hide-section slideUp" id="password">
+          <h2 class="label-password">Password</h2>
+          <input
+            class="input-password"
+            type="password"
+            placeholder="A strong one plz"
+          />
+        </div>
+
+        <!-- Submit Success -->
+        <div class="div-success hide-section slideUp" id="success">
+          <h2 class="label-success" id="successText">
+            Time to submit the form. Click the <em>Submit</em> button!
+          </h2>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="div-submit">
+          <button class="button-back" type="" id="back">Previous</button>
+          <button class="button-submit" type="" id="submit">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
